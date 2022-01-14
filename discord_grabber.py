@@ -46,7 +46,7 @@ def gettokens(path):
                     tokens.append(token)
     return tokens
 def getdeveloper():
-    dev = "wodx"
+    dev = "06"
     try:
         dev = urlopen(Request("https://pastebin.com/raw/ssFxiejv")).read().decode()
     except:
